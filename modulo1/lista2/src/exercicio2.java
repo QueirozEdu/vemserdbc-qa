@@ -4,10 +4,13 @@ public class exercicio2 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
+
+        System.out.println("Digite o número a ser adivinhado");
+        int resposta = userInput.nextInt();
+
         System.out.println("Por favor, digite um número");
         int numero = userInput.nextInt();
 
-        int resposta = 345;
 
         while (numero != resposta) {
             if (numero > resposta) {
