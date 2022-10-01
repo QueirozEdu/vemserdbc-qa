@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 
-public class exercicio1 {
+public class Exercicio1 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 

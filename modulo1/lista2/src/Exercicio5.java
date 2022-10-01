@@ -1,7 +1,7 @@
 import javax.annotation.processing.SupportedSourceVersion;
 import java.util.Scanner;
 
-public class exercicio5 {
+public class Exercicio5 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
