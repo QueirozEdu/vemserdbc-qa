@@ -43,9 +43,8 @@ public class ContaCorrente {
     }
 
     public boolean transferir(ContaCorrente conta, double valor) {
-        if (retornarSaldoComChequeEspecial() >= valor && valor > 0){
-            saldo -= valor;
-            conta.saldo += valor;
+        if (sacar(valor)){
+            conta.depositar(valor);
             return true;
         }
         else {
