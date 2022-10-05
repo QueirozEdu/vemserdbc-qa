@@ -25,16 +25,7 @@ public class ContaCorrente extends Conta implements Impressao {
     }
 
 
-    @Override
-    public boolean depositar(double deposito) {
-        if (deposito >= 0) {
-            this.setSaldo(this.getSaldo() + deposito);
-            return true;
-        } else {
-            System.out.println("Depósito não realizado");
-            return false;
-        }
-    }
+
 
     @Override
     public boolean sacar(double valor) {
@@ -47,18 +38,7 @@ public class ContaCorrente extends Conta implements Impressao {
         }
     }
 
-    @Override
-    public boolean transferir(Conta conta, double valor) {
-        if (this.retornarSaldoComChequeEspecial() >= valor && this.retornarSaldoComChequeEspecial() >= 0) {
-            conta.setSaldo(conta.getSaldo() + valor);
-            this.setSaldo(this.getSaldo() - valor);
-            return true;
-        }
-        else {
-            System.out.println("Transferência não realizada pois o valor é maior que: " +this.retornarSaldoComChequeEspecial());
-            return false;
-        }
-    }
+
 
 }
 
