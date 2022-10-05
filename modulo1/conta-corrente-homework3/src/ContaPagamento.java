@@ -14,6 +14,17 @@ public class ContaPagamento extends Conta implements Impressao{
                 return false;
             }
         }
+        @Override
+        public boolean transferir(Conta conta, double valor) {
+            if (super.sacar(valor)){
+                conta.depositar(valor);
+                return true;
+            }
+            else {
+                System.out.println("Transferência não realizada");
+                return false;
+            }
+        }
 
 
     @Override

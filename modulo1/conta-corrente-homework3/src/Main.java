@@ -78,7 +78,7 @@ public class Main {
         contapg1.transferir(contapg2, 100);
         System.out.println(contapg1.getSaldo());
         System.out.println(contapg2.getSaldo());
-        contapg2.transferir(contapg1, 300);
+        contapg2.transferir(contapg1, 100);
         System.out.println(contapg1.getSaldo());
         System.out.println(contapg2.getSaldo());
 

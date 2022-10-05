@@ -12,7 +12,7 @@ abstract public class Conta implements Movimentacao {
     }
 
     public boolean sacar(double valor) {
-        if (saldo > valor && valor > 0) {
+        if (saldo >= valor && valor > 0) {
             saldo -= valor;
             return true;
         } else {
