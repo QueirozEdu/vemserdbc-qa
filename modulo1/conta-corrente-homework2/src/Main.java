@@ -6,7 +6,7 @@ public class Main {
         Contato contato2Pedro = new Contato("Número comercial", "(84) 258-147-369", 2);
         Endereco endereco1Pedro = new Endereco("Avenida Europa", 155, "Casa da esquina", "55487-988", "Petrolina", "Pernambuco", "Brasil");
         Endereco endereco2Pedro = new Endereco("Rua dos Ladrilhos", 22, "Próximo ao farol", "45878-010", "Petrolina", "Pernambuco", "Brasil");
-        Cliente pedro = new Cliente("Pedro", "524.365.152-78", contato1Pedro, contato2Pedro, endereco1Pedro, endereco2Pedro);
+        Cliente pedro = new Cliente("Pedro", "524.365.152-78");
 
 
 
@@ -15,7 +15,7 @@ public class Main {
         Endereco endereco1Maria = new Endereco("Loteamento América", 253, "Próximo ao posto", "44740-854", "Jaboatão", "Pernambuco", "Brasil");
         Endereco endereco2Maria = new Endereco("Avenida Laranjeiras", 84, "Condomínio das flores", "55421-748", "Jaboatão", "Pernambuco", "Brasil");
 
-        Cliente maria = new Cliente("Maria", "052.698.547-98", contato1Maria, contato2Maria, endereco1Maria, endereco2Maria);
+        Cliente maria = new Cliente("Maria", "052.698.547-98");
 
 
 

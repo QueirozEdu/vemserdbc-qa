@@ -7,8 +7,10 @@ public class Endereco {
     private String cidade;
     private String estado;
 
-    public Endereco(){}
-    public Endereco(String logradouro, int numero, String complemento, String cep, String cidade, String estado, String pais){
+    public Endereco() {
+    }
+
+    public Endereco(String logradouro, int numero, String complemento, String cep, String cidade, String estado, String pais) {
         this.tipo = tipo;
         this.logradouro = logradouro;
         this.numero = numero;
@@ -86,13 +88,13 @@ public class Endereco {
 
     public void imprimirEndereco() {
         String saida = "";
-        switch (tipo){
+        switch (tipo) {
             case 1:
                 saida = "Residencial";
             case 2:
                 saida = "Comercial";
         }
-        System.out.println("Endereço " +saida+":");
+        System.out.println("Endereço " + saida + ":");
         System.out.println(logradouro);
         System.out.println(numero);
         System.out.println(complemento);

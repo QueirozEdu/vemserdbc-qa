@@ -4,4 +4,6 @@ public interface Movimentacao {
     public boolean depositar(double deposito);
 
     public boolean transferir(Conta conta, double valor);
+
+    void imprimir();
 }

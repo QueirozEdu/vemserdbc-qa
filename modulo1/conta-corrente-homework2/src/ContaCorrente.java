@@ -9,7 +9,6 @@ public class ContaCorrente extends Conta implements Impressao {
         return this.chequeEspecial = valor;
     }
 
-    public ContaCorrente() {}
     public ContaCorrente(Cliente cliente, String numeroConta, String agencia, double saldo, double chequeEspecial) {
         super(cliente, numeroConta, agencia, saldo);
         this.chequeEspecial = chequeEspecial;
@@ -59,40 +58,6 @@ public class ContaCorrente extends Conta implements Impressao {
             System.out.println("Transferência não realizada pois o valor é maior que: " +this.retornarSaldoComChequeEspecial());
             return false;
         }
-    }
-
-    @Override
-    public Cliente getCliente(){
-        return super.getCliente();
-    }
-    @Override
-    public void setCliente(Cliente cliente) {
-        super.setCliente(cliente);
-    }
-
-    @Override
-    public String getNumeroConta(){
-        return super.getNumeroConta();
-    }
-    @Override
-    public void setNumeroConta(String numeroConta){
-        super.setNumeroConta(numeroConta);
-    }
-    @Override
-    public String getAgencia(){
-        return super.getAgencia();
-    }
-    @Override
-    public void setAgencia(String agencia) {
-        super.setAgencia(agencia);
-    }
-    @Override
-    public double getSaldo() {
-        return super.getSaldo();
-    }
-    @Override
-    public void setSaldo(double saldo){
-        super.setSaldo(saldo);
     }
 
 }
