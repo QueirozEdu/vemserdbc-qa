@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         loop();
+        System.out.println("Operacão finalizada");
 
     }
     public static void loop(){
@@ -24,7 +25,7 @@ public class Main{
         }
         finally {
             userInput.close();
-            System.out.println("Operacão finalizada");
+
         }
 
     }
