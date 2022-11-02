@@ -1,0 +1,18 @@
+{
+  "id": 2323,
+  "category": {
+    "id": 2,
+    "name": "dog"
+  },
+  "name": "Turbo",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2040,
+      "name": "3kilo"
+    }
+  ],
+  "status": "available"
+}
