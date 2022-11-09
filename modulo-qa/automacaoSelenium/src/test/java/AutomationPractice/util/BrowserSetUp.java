@@ -29,6 +29,6 @@ public class BrowserSetUp {
 
 
     public void browserDown() {
-//        driver.quit();
+        driver.quit();
     }
 }
