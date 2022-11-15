@@ -1,27 +1,20 @@
 package AutomationPractice.step;
 
 
-import Itera.util.Browser;
-import com.github.javafaker.Faker;
-
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.testng.AssertJUnit.*;
 
 
 
-public class CarrinhoTest extends BaseTeste {
+public class CarrinhoTest extends BaseStep {
 
     public void fazerLogin() {
         driver.findElement(By.cssSelector("#menu-item-50 > a")).click();
