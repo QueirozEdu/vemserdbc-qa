@@ -53,7 +53,7 @@ public class Stream {
                     .map(pessoa -> new Salario(pessoa.getId(), pessoa.getSalario()))
                     .toList();
             listaDeSalario
-                    .forEach(salario -> System.out.println("ID: " + salario.getId() + "Salário: " + salario.getSalario()));
+                    .forEach(salario -> System.out.println("ID: " + salario.getId() + " Salário: " + salario.getSalario()));
 
             //8- retornar um HashMap (estrutura de dados, e não uma função map) contendo os ids e os nomes dos colaboradores
             Map<Integer, String> mapPessoas = lista.stream()
@@ -67,9 +67,9 @@ public class Stream {
             //10- verificar se tem alguém que contenha o nome "Paulo" (containsignorecase) na lista e retornar o primeiro elemento que encontrar (findFirst).
             //    Imprimir o nome e salário dessa pessoa
             Optional<Pessoa> verificacao2 = lista.stream()
-                    .filter(pessoa -> pessoa.getNome().equalsIgnoreCase("Paulo"))
+                    .filter(pessoa -> pessoa.getNome().toLowerCase().contains("paulo"))
                     .findFirst();
-            verificacao2.ifPresent(pessoa -> System.out.println("Nome: " + pessoa.getNome() + "Salario: " +pessoa.getSalario()));
+            verificacao2.ifPresent(pessoa -> System.out.println("Nome: " + pessoa.getNome() + "\n" +"Salario: " +pessoa.getSalario()));
         }
 
         static class Pessoa {

@@ -7,7 +7,7 @@ public class ContaPagamento extends Conta implements Impressao{
     @Override
     public boolean sacar(double valor){
             if (getSaldo() > (valor + TAXA_SAQUE) && valor > 0) {
-                super.sacar((valor + 4.25));
+                super.sacar((valor + TAXA_SAQUE));
                 return true;
             } else {
                 System.out.println("Saque não realizado");

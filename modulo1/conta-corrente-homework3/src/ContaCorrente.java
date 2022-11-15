@@ -14,6 +14,8 @@ public class ContaCorrente extends Conta implements Impressao {
         this.chequeEspecial = chequeEspecial;
     }
 
+    public ContaCorrente() {}
+
     public void imprimir() {
         System.out.println("Conta: " + this.getNumeroConta());
         System.out.println("Nome: " + this.getCliente().getNome());

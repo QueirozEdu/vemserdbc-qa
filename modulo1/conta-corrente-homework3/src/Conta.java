@@ -10,6 +10,7 @@ abstract public class Conta implements Movimentacao {
         this.agencia = agencia;
         this.saldo = saldo;
     }
+    public Conta(){};
 
     public boolean sacar(double valor) {
         if (saldo >= valor && valor > 0) {
