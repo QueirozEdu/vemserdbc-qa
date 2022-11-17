@@ -1,0 +1,24 @@
+[
+    {
+        "idPessoa": 128,
+        "tipo": "COMERCIAL",
+        "logradouro": "Rua Ernando Dantas",
+        "numero": 44,
+        "complemento": "Condomínio",
+        "cep": "587452444",
+        "cidade": "São José das Couve",
+        "estado": "SP",
+        "pais": "Brasil"
+    },
+    {
+        "idPessoa": 2258,
+        "tipo": "Residencial",
+        "logradouro": "Rua Laranjeiras",
+        "numero": 89,
+        "complemento": "Vivendas",
+        "cep": "741258",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+    }
+]

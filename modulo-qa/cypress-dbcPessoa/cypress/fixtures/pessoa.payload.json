@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Gabriel O Pescador",
+        "dataNascimento": "1994-12-08",
+        "cpf": "555444",
+        "email": "gabriel.pescador@dbccompany.com.br"
+    }, 
+    {
+        "nome": "Igor Dinho",
+        "dataNascimento": "1985-07-08",
+        "cpf": "741258",
+        "email": "igor.dinho@dbccompany.com.br"
+    },
+    {
+        "nome": "Omar Telo",
+        "dataNascimento": "1998-02-10",
+        "cpf": "778845",
+        "email": "omar.telo@dbccompany.com.br"
+    }
+]
