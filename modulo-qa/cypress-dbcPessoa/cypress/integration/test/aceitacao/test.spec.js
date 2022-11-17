@@ -1,6 +1,6 @@
-import Pessoa from "../service/service";
+import Pessoa from "../../service/pessoaService";
 const pessoa = new Pessoa;
-const pessoaPayload = require('../../fixtures/pessoa.payload.json')
+const pessoaPayload = require('../../../fixtures/pessoa.payload.json')
 let token = 'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ2ZW1zZXItYXBpIiwianRpIjoiMiIsImNhcmdvcyI6WyJST0xFX1VTVUFSSU8iLCJST0xFX01BUktFVElORyIsIlJPTEVfQURNSU4iXSwiaWF0IjoxNjY4NjU3ODgwLCJleHAiOjE2Njg3NDQyODB9.beqOeZRPmSjO3J8vDLggfQ5nJYirltWtsMVdEHkUJkM'
 // let token = pessoa.fazerLogin();
 

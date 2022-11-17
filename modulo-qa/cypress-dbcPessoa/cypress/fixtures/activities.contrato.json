@@ -1,0 +1,66 @@
+{
+    "type": "object",
+    "default": {},
+    "required": [
+        "totalElements",
+        "totalPages",
+        "page",
+        "size",
+        "content"
+    ],
+    "properties": {
+        "totalElements": {
+            "type": "integer",
+            "default": 0
+        },
+        "totalPages": {
+            "type": "integer",
+            "default": 0
+        },
+        "page": {
+            "type": "integer",
+            "default": 0
+        },
+        "size": {
+            "type": "integer",
+            "default": 0
+        },
+        "content": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "type": "object",
+                "default": {},
+                "required": [
+                    "nome",
+                    "dataNascimento",
+                    "cpf",
+                    "email",
+                    "idPessoa"
+                ],
+                "properties": {
+                    "nome": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "dataNascimento": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "cpf": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "email": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "idPessoa": {
+                        "type": "integer",
+                        "default": 0
+                    }
+                }
+            }
+        }
+    }
+}
