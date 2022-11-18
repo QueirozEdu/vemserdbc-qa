@@ -1,0 +1,57 @@
+{
+    "type": "array",
+    "default": [],
+    "items": {
+        "type": "object",
+        "default": {},
+        "required": [
+            "idPessoa",
+            "nomePessoa",
+            "email",
+            "nomePet",
+            "numeroContato",
+            "cep",
+            "cidade",
+            "estado",
+            "pais"
+        ],
+        "properties": {
+            "idPessoa": {
+                "type": "integer",
+                "default": 0
+            },
+            "nomePessoa": {
+                "type": "string",
+                "default": ""
+            },
+            "email": {
+                "type": "string",
+                "default": ""
+            },
+            "nomePet": {
+                "type": "null",
+                "default": null
+            },
+            "numeroContato": {
+                "type": "null",
+                "default": null
+            },
+            "cep": {
+                "type": "null",
+                "default": null
+            },
+            "cidade": {
+                "type": "null",
+                "default": null
+            },
+            "estado": {
+                "type": "null",
+                "default": null
+            },
+            "pais": {
+                "type": "null",
+                "default": null
+            }
+        }
+    }
+}

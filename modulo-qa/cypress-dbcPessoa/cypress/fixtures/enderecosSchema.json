@@ -1,0 +1,91 @@
+{
+    "type": "object",
+    "default": {},
+    "required": [
+        "totalElements",
+        "totalPages",
+        "page",
+        "size",
+        "content"
+    ],
+    "properties": {
+        "totalElements": {
+            "type": "integer",
+            "default": 0
+        },
+        "totalPages": {
+            "type": "integer",
+            "default": 0
+        },
+        "page": {
+            "type": "integer",
+            "default": 0
+        },
+        "size": {
+            "type": "integer",
+            "default": 0
+        },
+        "content": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "type": "object",
+                "default": {},
+                "required": [
+                    "idPessoa",
+                    "tipo",
+                    "logradouro",
+                    "numero",
+                    "complemento",
+                    "cep",
+                    "cidade",
+                    "estado",
+                    "pais",
+                    "idEndereco"
+                ],
+                "properties": {
+                    "idPessoa": {
+                        "type": "integer",
+                        "default": 0
+                    },
+                    "tipo": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "logradouro": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "numero": {
+                        "type": "integer",
+                        "default": 0
+                    },
+                    "complemento": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "cep": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "cidade": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "estado": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "pais": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "idEndereco": {
+                        "type": "integer",
+                        "default": 0
+                    }
+                }
+            }
+        }
+    }
+}

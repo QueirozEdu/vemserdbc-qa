@@ -1,0 +1,49 @@
+{
+    "type": "array",
+    "default": [],
+    "items": {
+        "type": "object",
+        "default": {},
+        "required": [
+            "nome",
+            "dataNascimento",
+            "cpf",
+            "email",
+            "idPessoa",
+            "contatos",
+            "enderecos"
+        ],
+        "properties": {
+            "nome": {
+                "type": "string",
+                "default": ""
+            },
+            "dataNascimento": {
+                "type": "string",
+                "default": ""
+            },
+            "cpf": {
+                "type": "string",
+                "default": ""
+            },
+            "email": {
+                "type": "string",
+                "default": ""
+            },
+            "idPessoa": {
+                "type": "integer",
+                "default": 0
+            },
+            "contatos": {
+                "type": "array",
+                "default": [],
+                "items": {}
+            },
+            "enderecos": {
+                "type": "array",
+                "default": [],
+                "items": {}
+            }
+        }
+    }
+}

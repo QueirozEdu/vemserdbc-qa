@@ -1,0 +1,37 @@
+{
+    "type": "array",
+    "default": [],
+    "items": {
+        "type": "object",
+        "default": {},
+        "required": [
+            "idPessoa",
+            "tipoContato",
+            "telefone",
+            "descricao",
+            "idContato"
+        ],
+        "properties": {
+            "idPessoa": {
+                "type": "integer",
+                "default": 0
+            },
+            "tipoContato": {
+                "type": "string",
+                "default": ""
+            },
+            "telefone": {
+                "type": "string",
+                "default": ""
+            },
+            "descricao": {
+                "type": "string",
+                "default": ""
+            },
+            "idContato": {
+                "type": "integer",
+                "default": 0
+            }
+        }
+    }
+}
