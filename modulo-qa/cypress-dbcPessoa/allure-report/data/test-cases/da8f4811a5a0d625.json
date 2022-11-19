@@ -1,0 +1,136 @@
+{
+  "uid" : "da8f4811a5a0d625",
+  "name" : "GET - Listar contato por id",
+  "fullName" : "GET - Listar contato por id",
+  "historyId" : "8610b288ab8bbc9f82e178f41d224eff",
+  "time" : {
+    "start" : 1668815454078,
+    "stop" : 1668815454300,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 200",
+  "statusTrace" : "AssertionError: expected 500 to equal 200\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:253:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 200",
+    "statusTrace" : "AssertionError: expected 500 to equal 200\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:253:36)",
+    "steps" : [ {
+      "name" : "GET 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/834",
+      "time" : {
+        "start" : 1668815454099,
+        "stop" : 1668815454163,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **200**",
+      "time" : {
+        "start" : 1668815454300,
+        "stop" : 1668815454300,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1002c3567ed2bc57",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:50:54.172Z",
+      "source" : "1002c3567ed2bc57.png",
+      "type" : "image/png",
+      "size" : 83179
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Listar contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Listar contato por ID"
+  }, {
+    "name" : "story",
+    "value" : "ID correto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ee9599986589d2e",
+      "status" : "failed",
+      "statusDetails" : "expected 500 to equal 200",
+      "time" : {
+        "start" : 1668815013195,
+        "stop" : 1668815013531,
+        "duration" : 336
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "285848ad3690c1c6",
+        "status" : "failed",
+        "statusDetails" : "expected 500 to equal 200",
+        "time" : {
+          "start" : 1668815013195,
+          "stop" : 1668815013531,
+          "duration" : 336
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da8f4811a5a0d625.json",
+  "parameterValues" : [ ]
+}

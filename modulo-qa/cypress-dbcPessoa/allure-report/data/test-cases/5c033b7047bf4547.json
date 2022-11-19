@@ -1,0 +1,136 @@
+{
+  "uid" : "5c033b7047bf4547",
+  "name" : "GET - Tentar buscar pessoa por cpf inválido",
+  "fullName" : "GET - Tentar buscar pessoa por cpf inválido",
+  "historyId" : "be42fd7e2772357001e0ca655f26a385",
+  "time" : {
+    "start" : 1668815460457,
+    "stop" : 1668815460696,
+    "duration" : 239
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 200 to equal 404",
+  "statusTrace" : "AssertionError: expected 200 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\test.spec.js:392:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 200 to equal 404",
+    "statusTrace" : "AssertionError: expected 200 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\test.spec.js:392:36)",
+    "steps" : [ {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa/NaN/cpf",
+      "time" : {
+        "start" : 1668815460474,
+        "stop" : 1668815460537,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **200** to equal **404**",
+      "time" : {
+        "start" : 1668815460696,
+        "stop" : 1668815460696,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "26a1cdf2672f1ca6",
+      "name" : "test/aceitacao/test.spec.js:2022-11-18T23:51:00.545Z",
+      "source" : "26a1cdf2672f1ca6.png",
+      "type" : "image/png",
+      "size" : 86541
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "suite",
+    "value" : "Listar pessoas"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "feature",
+    "value" : "Tentar listar pessoa com CPF inválido"
+  }, {
+    "name" : "story",
+    "value" : "CPF inválido"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "765e15a992e77671",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 404",
+      "time" : {
+        "start" : 1668815021056,
+        "stop" : 1668815021362,
+        "duration" : 306
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c2117551c394288a",
+        "status" : "failed",
+        "statusDetails" : "expected 200 to equal 404",
+        "time" : {
+          "start" : 1668815021056,
+          "stop" : 1668815021362,
+          "duration" : 306
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c033b7047bf4547.json",
+  "parameterValues" : [ ]
+}

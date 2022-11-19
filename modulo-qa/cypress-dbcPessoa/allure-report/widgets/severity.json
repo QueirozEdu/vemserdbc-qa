@@ -1,0 +1,401 @@
+[ {
+  "uid" : "e3df0b4cba86e0b",
+  "name" : "Contrato - validar contrato activities",
+  "time" : {
+    "start" : 1668815464384,
+    "stop" : 1668815464527,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d47a9a5605c4f3f2",
+  "name" : "PUT - Tentar atualizar contato com id inválido",
+  "time" : {
+    "start" : 1668815454826,
+    "stop" : 1668815455120,
+    "duration" : 294
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "155ae1efc5a155df",
+  "name" : "DELETE - Tentar deletar contato com id inválido",
+  "time" : {
+    "start" : 1668815455383,
+    "stop" : 1668815455693,
+    "duration" : 310
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87b986690f431",
+  "name" : "GET - Buscar lista completa",
+  "time" : {
+    "start" : 1668815461060,
+    "stop" : 1668815461323,
+    "duration" : 263
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "125b51bdd0f04133",
+  "name" : "DELETE - Deletar pessoa",
+  "time" : {
+    "start" : 1668815459822,
+    "stop" : 1668815459975,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10078fa602d9ec3e",
+  "name" : "GET - Listar pessoas por nome",
+  "time" : {
+    "start" : 1668815462215,
+    "stop" : 1668815462312,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfac6c39bc2cf2d7",
+  "name" : "Contrato - validar busca de pessoa com endereço",
+  "time" : {
+    "start" : 1668815464823,
+    "stop" : 1668815464911,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c033b7047bf4547",
+  "name" : "GET - Tentar buscar pessoa por cpf inválido",
+  "time" : {
+    "start" : 1668815460457,
+    "stop" : 1668815460696,
+    "duration" : 239
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bd57ac6de46525b",
+  "name" : "GET - Tentar buscar pessoa com contatos passando id inválido",
+  "time" : {
+    "start" : 1668815462122,
+    "stop" : 1668815462211,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4296db1a0356c1dd",
+  "name" : "Contrato - validar busca por id",
+  "time" : {
+    "start" : 1668815469664,
+    "stop" : 1668815469818,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9714f243ffcdcc6",
+  "name" : "GET - Tentar buscar pessoa com endereços passando id inválido",
+  "time" : {
+    "start" : 1668815461786,
+    "stop" : 1668815461880,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be65d435a1e71a9d",
+  "name" : "Contrato - validar busca de lista completa",
+  "time" : {
+    "start" : 1668815464728,
+    "stop" : 1668815464818,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e8d91b4269755f5",
+  "name" : "GET - Buscar pessoa por cpf",
+  "time" : {
+    "start" : 1668815460150,
+    "stop" : 1668815460420,
+    "duration" : 270
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4de067fd75edd00d",
+  "name" : "An uncaught error was detected outside of a test",
+  "time" : {
+    "start" : 1668815457326,
+    "stop" : 1668815457562,
+    "duration" : 236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de035f5d464ea6af",
+  "name" : "GET - Tentar buscar pessoa por nome inválido",
+  "time" : {
+    "start" : 1668815462315,
+    "stop" : 1668815462393,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f1e8f39f127d539",
+  "name" : "GET - Tentar buscar relatório com id inválido",
+  "time" : {
+    "start" : 1668815460960,
+    "stop" : 1668815461057,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db49573757d17f06",
+  "name" : "DELETE - Deletar contato",
+  "time" : {
+    "start" : 1668815455127,
+    "stop" : 1668815455375,
+    "duration" : 248
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da8f4811a5a0d625",
+  "name" : "GET - Listar contato por id",
+  "time" : {
+    "start" : 1668815454078,
+    "stop" : 1668815454300,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a1d2949d08725f1",
+  "name" : "PUT - Atualizar contato",
+  "time" : {
+    "start" : 1668815454570,
+    "stop" : 1668815454815,
+    "duration" : 245
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4aa03a93bca2d01",
+  "name" : "GET - Listar contatos",
+  "time" : {
+    "start" : 1668815452886,
+    "stop" : 1668815453533,
+    "duration" : 647
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe4173d5645afcc5",
+  "name" : "Contrato - validar listar contatos",
+  "time" : {
+    "start" : 1668815467030,
+    "stop" : 1668815467172,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3f8732ed9b78a",
+  "name" : "PUT - Tentar atualizar pessoa com id inválido",
+  "time" : {
+    "start" : 1668815459570,
+    "stop" : 1668815459647,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "845a37df62912459",
+  "name" : "GET - Buscar relatório",
+  "time" : {
+    "start" : 1668815460705,
+    "stop" : 1668815460952,
+    "duration" : 247
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c34a226eb8311acb",
+  "name" : "Contrato - validar busca por cpf",
+  "time" : {
+    "start" : 1668815464532,
+    "stop" : 1668815464615,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20e8beb6275f01c8",
+  "name" : "GET - Tentar buscar lista completa com id inválido",
+  "time" : {
+    "start" : 1668815461332,
+    "stop" : 1668815461432,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1638b992602cc492",
+  "name" : "GET - Buscar pessoa com endereços",
+  "time" : {
+    "start" : 1668815461437,
+    "stop" : 1668815461779,
+    "duration" : 342
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b0a0235f87f787",
+  "name" : "GET - Buscar pessoa com contato",
+  "time" : {
+    "start" : 1668815461883,
+    "stop" : 1668815462112,
+    "duration" : 229
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb9935ad09c72890",
+  "name" : "Contrato - validar busca de relatório",
+  "time" : {
+    "start" : 1668815464618,
+    "stop" : 1668815464725,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1b2fe7ae05ff87",
+  "name" : "GET - Tentar listar contato por id inexistente",
+  "time" : {
+    "start" : 1668815454311,
+    "stop" : 1668815454562,
+    "duration" : 251
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e943e101d116a589",
+  "name" : "POST - Tentar adicionar pessoa vazio",
+  "time" : {
+    "start" : 1668815459744,
+    "stop" : 1668815459819,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f81f94ba68783ea9",
+  "name" : "POST - Cadastrar novo contato",
+  "time" : {
+    "start" : 1668815453568,
+    "stop" : 1668815453844,
+    "duration" : 276
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65e0be87061dddc",
+  "name" : "GET - Listar pessoas",
+  "time" : {
+    "start" : 1668815460062,
+    "stop" : 1668815460145,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3841d53029d8eb1",
+  "name" : "POST - Adicionar pessoa",
+  "time" : {
+    "start" : 1668815459652,
+    "stop" : 1668815459741,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22eb5f9b66158e4b",
+  "name" : "POST - Tentar cadastrar novo contato com id inexistente",
+  "time" : {
+    "start" : 1668815453852,
+    "stop" : 1668815454069,
+    "duration" : 217
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e67724c4458d0b",
+  "name" : "Contrato - validar busca de endereço por ID",
+  "time" : {
+    "start" : 1668815468999,
+    "stop" : 1668815469307,
+    "duration" : 308
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "69f87db20a45044b",
+  "name" : "PUT - Atualizar pessoa",
+  "time" : {
+    "start" : 1668815459449,
+    "stop" : 1668815459558,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac784aec720417e",
+  "name" : "DELETE - Tentar deletar pessoa inexistente",
+  "time" : {
+    "start" : 1668815459977,
+    "stop" : 1668815460054,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfdff279b8ae32a2",
+  "name" : "Contrato - validar busca de endereços",
+  "time" : {
+    "start" : 1668815469341,
+    "stop" : 1668815469472,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ac955e71dc3999c",
+  "name" : "Contrato - validar busca por nome",
+  "time" : {
+    "start" : 1668815464914,
+    "stop" : 1668815464996,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8da0d0335c951a70",
+  "name" : "Contrato - validar busca por país",
+  "time" : {
+    "start" : 1668815469494,
+    "stop" : 1668815469662,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

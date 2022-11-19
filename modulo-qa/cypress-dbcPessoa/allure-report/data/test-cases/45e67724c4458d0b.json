@@ -1,0 +1,148 @@
+{
+  "uid" : "45e67724c4458d0b",
+  "name" : "Contrato - validar busca de endereço por ID",
+  "fullName" : "Contrato - validar busca de endereço por ID",
+  "historyId" : "b9c0a6da082085d40e21a277c2a2e39b",
+  "time" : {
+    "start" : 1668815468999,
+    "stop" : 1668815469307,
+    "duration" : 308
+  },
+  "status" : "failed",
+  "statusMessage" : "Falha do contrato",
+  "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\contrato\\endereco.spec.js:151:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Falha do contrato",
+    "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\contrato\\endereco.spec.js:151:17)",
+    "steps" : [ {
+      "name" : "GET 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/endereco/191",
+      "time" : {
+        "start" : 1668815469016,
+        "stop" : 1668815469087,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"enderecoIdSchema\")",
+      "time" : {
+        "start" : 1668815469089,
+        "stop" : 1668815469095,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log Array[10]",
+      "time" : {
+        "start" : 1668815469136,
+        "stop" : 1668815469138,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1668815469304,
+        "stop" : 1668815469304,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a8aac6ee20eef9c4",
+      "name" : "test/contrato/endereco.spec.js:2022-11-18T23:51:09.157Z",
+      "source" : "a8aac6ee20eef9c4.png",
+      "type" : "image/png",
+      "size" : 58420
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Endereco Contrato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ef4e743f0e68d6d",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668815029682,
+        "stop" : 1668815030002,
+        "duration" : 320
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "687881d2d3d89102",
+        "status" : "failed",
+        "statusDetails" : "Falha do contrato",
+        "time" : {
+          "start" : 1668815029682,
+          "stop" : 1668815030002,
+          "duration" : 320
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "45e67724c4458d0b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "8da0d0335c951a70",
+  "name" : "Contrato - validar busca por país",
+  "fullName" : "Contrato - validar busca por país",
+  "historyId" : "5e573a8490d7f9178c28f04e2f87a993",
+  "time" : {
+    "start" : 1668815469494,
+    "stop" : 1668815469662,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/endereco/retorna-por-pais",
+      "time" : {
+        "start" : 1668815469521,
+        "stop" : 1668815469649,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"enderecoPorPaisSchema\")",
+      "time" : {
+        "start" : 1668815469650,
+        "stop" : 1668815469657,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Endereco Contrato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae907325a55de209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668815030185,
+        "stop" : 1668815030371,
+        "duration" : 186
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "23cc73df10226a43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668815030185,
+          "stop" : 1668815030371,
+          "duration" : 186
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8da0d0335c951a70.json",
+  "parameterValues" : [ ]
+}

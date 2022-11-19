@@ -1,0 +1,101 @@
+{
+  "uid" : "f3a10d720c1b573",
+  "name" : "PUT - Tentar atualizar contato com id inválido",
+  "fullName" : "PUT - Tentar atualizar contato com id inválido",
+  "historyId" : "10d8032443e7a6d63726af6fa34bfc7e",
+  "time" : {
+    "start" : 1668815014496,
+    "stop" : 1668815014794,
+    "duration" : 298
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 404",
+  "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:53954/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:276:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 404",
+    "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:53954/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:276:36)",
+    "steps" : [ {
+      "name" : "PUT 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/01",
+      "time" : {
+        "start" : 1668815014528,
+        "stop" : 1668815014598,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **404**",
+      "time" : {
+        "start" : 1668815014793,
+        "stop" : 1668815014793,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b26023f8ccd18a",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:43:34.607Z",
+      "source" : "b26023f8ccd18a.png",
+      "type" : "image/png",
+      "size" : 81543
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Atualizar contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Tentar atualizar contato com ID inválido"
+  }, {
+    "name" : "story",
+    "value" : "ID inválido"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a10d720c1b573.json",
+  "parameterValues" : [ ]
+}

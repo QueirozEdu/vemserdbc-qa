@@ -1,0 +1,278 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 500 to equal 200",
+      "children" : [ {
+        "name" : "GET - Listar contatos",
+        "uid" : "d4aa03a93bca2d01",
+        "parentUid" : "ef07a0b6ca56d4f44b9702800af8f83e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815452886,
+          "stop" : 1668815453533,
+          "duration" : 647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "POST - Cadastrar novo contato",
+        "uid" : "f81f94ba68783ea9",
+        "parentUid" : "ef07a0b6ca56d4f44b9702800af8f83e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815453568,
+          "stop" : 1668815453844,
+          "duration" : 276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET - Listar contato por id",
+        "uid" : "da8f4811a5a0d625",
+        "parentUid" : "ef07a0b6ca56d4f44b9702800af8f83e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815454078,
+          "stop" : 1668815454300,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PUT - Atualizar contato",
+        "uid" : "8a1d2949d08725f1",
+        "parentUid" : "ef07a0b6ca56d4f44b9702800af8f83e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815454570,
+          "stop" : 1668815454815,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DELETE - Deletar contato",
+        "uid" : "db49573757d17f06",
+        "parentUid" : "ef07a0b6ca56d4f44b9702800af8f83e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815455127,
+          "stop" : 1668815455375,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef07a0b6ca56d4f44b9702800af8f83e"
+    }, {
+      "name" : "expected 500 to equal 404",
+      "children" : [ {
+        "name" : "POST - Tentar cadastrar novo contato com id inexistente",
+        "uid" : "22eb5f9b66158e4b",
+        "parentUid" : "e0870bbb86c79971d710771f94345a7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815453852,
+          "stop" : 1668815454069,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET - Tentar listar contato por id inexistente",
+        "uid" : "bf1b2fe7ae05ff87",
+        "parentUid" : "e0870bbb86c79971d710771f94345a7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815454311,
+          "stop" : 1668815454562,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PUT - Tentar atualizar contato com id inválido",
+        "uid" : "d47a9a5605c4f3f2",
+        "parentUid" : "e0870bbb86c79971d710771f94345a7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815454826,
+          "stop" : 1668815455120,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DELETE - Tentar deletar contato com id inválido",
+        "uid" : "155ae1efc5a155df",
+        "parentUid" : "e0870bbb86c79971d710771f94345a7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815455383,
+          "stop" : 1668815455693,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0870bbb86c79971d710771f94345a7f"
+    }, {
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot call `cy.allure()` outside a running test.\n\nThis usually happens when you accidentally write commands outside an `it(...)` test.\n\nIf that is the case, just move these commands inside an `it(...)` test.\n\nCheck your test file for errors.\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n\nhttps://on.cypress.io/cannot-execute-commands-outside-test",
+      "children" : [ {
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "4de067fd75edd00d",
+        "parentUid" : "0995492b88973ec29becfeabb80f8a2d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815457326,
+          "stop" : 1668815457562,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0995492b88973ec29becfeabb80f8a2d"
+    }, {
+      "children" : [ {
+        "name" : "PUT - Atualizar pessoa",
+        "uid" : "69f87db20a45044b",
+        "parentUid" : "666d1a31450af3ae8459f14f07f9a1b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815459449,
+          "stop" : 1668815459558,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "666d1a31450af3ae8459f14f07f9a1b4"
+    }, {
+      "name" : "expected undefined to equal 'Gabriel o Pescador'",
+      "children" : [ {
+        "name" : "GET - Buscar pessoa por cpf",
+        "uid" : "1e8d91b4269755f5",
+        "parentUid" : "23b76a72af805e29b1b79b32664e08d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815460150,
+          "stop" : 1668815460420,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23b76a72af805e29b1b79b32664e08d2"
+    }, {
+      "name" : "expected 200 to equal 404",
+      "children" : [ {
+        "name" : "GET - Tentar buscar pessoa por cpf inválido",
+        "uid" : "5c033b7047bf4547",
+        "parentUid" : "3466a6a1a317a2bb5e46f0cf37506ec0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815460457,
+          "stop" : 1668815460696,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3466a6a1a317a2bb5e46f0cf37506ec0"
+    }, {
+      "name" : "Cannot read properties of undefined (reading 'idPessoa')",
+      "children" : [ {
+        "name" : "GET - Buscar relatório",
+        "uid" : "845a37df62912459",
+        "parentUid" : "a7889d228952662e2a95b590c417410c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815460705,
+          "stop" : 1668815460952,
+          "duration" : 247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET - Buscar lista completa",
+        "uid" : "c87b986690f431",
+        "parentUid" : "a7889d228952662e2a95b590c417410c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815461060,
+          "stop" : 1668815461323,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7889d228952662e2a95b590c417410c"
+    }, {
+      "name" : "expected 404 to equal 200",
+      "children" : [ {
+        "name" : "GET - Buscar pessoa com endereços",
+        "uid" : "1638b992602cc492",
+        "parentUid" : "0d6669d65aa64eb7800e266adb60cff4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815461437,
+          "stop" : 1668815461779,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET - Buscar pessoa com contato",
+        "uid" : "11b0a0235f87f787",
+        "parentUid" : "0d6669d65aa64eb7800e266adb60cff4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815461883,
+          "stop" : 1668815462112,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d6669d65aa64eb7800e266adb60cff4"
+    }, {
+      "name" : "Falha do contrato",
+      "children" : [ {
+        "name" : "Contrato - validar busca de endereço por ID",
+        "uid" : "45e67724c4458d0b",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815468999,
+          "stop" : 1668815469307,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c3814f3db30bf84f2b800747b9087c7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

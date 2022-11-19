@@ -1,0 +1,136 @@
+{
+  "uid" : "22eb5f9b66158e4b",
+  "name" : "POST - Tentar cadastrar novo contato com id inexistente",
+  "fullName" : "POST - Tentar cadastrar novo contato com id inexistente",
+  "historyId" : "73a6eb6c3f2e3413a51579569457dff7",
+  "time" : {
+    "start" : 1668815453852,
+    "stop" : 1668815454069,
+    "duration" : 217
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 404",
+  "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:245:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 404",
+    "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:245:36)",
+    "steps" : [ {
+      "name" : "POST 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/10",
+      "time" : {
+        "start" : 1668815453871,
+        "stop" : 1668815453935,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **404**",
+      "time" : {
+        "start" : 1668815454069,
+        "stop" : 1668815454069,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "90dbd8fc1cde01cb",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:50:53.943Z",
+      "source" : "90dbd8fc1cde01cb.png",
+      "type" : "image/png",
+      "size" : 85043
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Cadastrar um contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Tenta cadastrar contato com id inexistente"
+  }, {
+    "name" : "story",
+    "value" : "Id inexistente"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e65f9823bb7cf2a",
+      "status" : "failed",
+      "statusDetails" : "expected 500 to equal 404",
+      "time" : {
+        "start" : 1668815012727,
+        "stop" : 1668815013176,
+        "duration" : 449
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "283c20e92cd18b88",
+        "status" : "failed",
+        "statusDetails" : "expected 500 to equal 404",
+        "time" : {
+          "start" : 1668815012727,
+          "stop" : 1668815013176,
+          "duration" : 449
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "22eb5f9b66158e4b.json",
+  "parameterValues" : [ ]
+}

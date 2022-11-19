@@ -1,0 +1,48 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "b46e323bdadaab1ddd699fd3b7c32263",
+    "name" : "Contato",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "0204f8d97da14a8025be491e943f2ab0",
+    "name" : "Pessoa",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 19
+    }
+  }, {
+    "uid" : "d4ecfdfd0aa8496d0921873428890729",
+    "name" : "Endereco Contrato",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "dafb78f8aee1decb00877acfdcca4fbe",
+    "name" : "Contrato activities",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

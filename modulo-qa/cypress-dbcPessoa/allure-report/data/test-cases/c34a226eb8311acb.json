@@ -1,0 +1,102 @@
+{
+  "uid" : "c34a226eb8311acb",
+  "name" : "Contrato - validar busca por cpf",
+  "fullName" : "Contrato - validar busca por cpf",
+  "historyId" : "71897805f900d7dc2cde5d5ebe69667c",
+  "time" : {
+    "start" : 1668815464532,
+    "stop" : 1668815464615,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa/12545214/cpf",
+      "time" : {
+        "start" : 1668815464539,
+        "stop" : 1668815464604,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"pessoaCpfSchema\")",
+      "time" : {
+        "start" : 1668815464605,
+        "stop" : 1668815464613,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contrato activities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb414cd4b666f931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668815025213,
+        "stop" : 1668815025304,
+        "duration" : 91
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7dbc78007a129386",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668815025213,
+          "stop" : 1668815025304,
+          "duration" : 91
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c34a226eb8311acb.json",
+  "parameterValues" : [ ]
+}

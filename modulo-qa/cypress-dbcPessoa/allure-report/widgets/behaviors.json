@@ -1,0 +1,26 @@
+{
+  "total" : 14,
+  "items" : [ {
+    "uid" : "150c488749eac4091d4fb50bbc7d8ebc",
+    "name" : "Contato",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "4a10512c6b89c50bce395cc427ac24be",
+    "name" : "Pessoa",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 19
+    }
+  } ]
+}

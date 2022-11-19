@@ -1,0 +1,101 @@
+{
+  "uid" : "b7b055c0cac2db9d",
+  "name" : "GET - Tentar listar contato por id inexistente",
+  "fullName" : "GET - Tentar listar contato por id inexistente",
+  "historyId" : "9f094a43977e73ef7bc629a49ac5da28",
+  "time" : {
+    "start" : 1668815013585,
+    "stop" : 1668815014026,
+    "duration" : 441
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 404",
+  "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:53954/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:262:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 404",
+    "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:53954/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:262:36)",
+    "steps" : [ {
+      "name" : "GET 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/10",
+      "time" : {
+        "start" : 1668815013663,
+        "stop" : 1668815013732,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **404**",
+      "time" : {
+        "start" : 1668815014025,
+        "stop" : 1668815014025,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7de15634843b4f98",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:43:33.744Z",
+      "source" : "7de15634843b4f98.png",
+      "type" : "image/png",
+      "size" : 86352
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Listar contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Tenta listar um contato com ID inexistente"
+  }, {
+    "name" : "story",
+    "value" : "ID incorreto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7b055c0cac2db9d.json",
+  "parameterValues" : [ ]
+}

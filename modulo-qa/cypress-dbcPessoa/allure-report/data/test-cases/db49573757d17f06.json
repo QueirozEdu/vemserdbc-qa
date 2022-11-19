@@ -1,0 +1,136 @@
+{
+  "uid" : "db49573757d17f06",
+  "name" : "DELETE - Deletar contato",
+  "fullName" : "DELETE - Deletar contato",
+  "historyId" : "ffd37d25706783d31cad539489e26432",
+  "time" : {
+    "start" : 1668815455127,
+    "stop" : 1668815455375,
+    "duration" : 248
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 200",
+  "statusTrace" : "AssertionError: expected 500 to equal 200\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:284:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 200",
+    "statusTrace" : "AssertionError: expected 500 to equal 200\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:284:36)",
+    "steps" : [ {
+      "name" : "DELETE 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/204",
+      "time" : {
+        "start" : 1668815455155,
+        "stop" : 1668815455218,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **200**",
+      "time" : {
+        "start" : 1668815455374,
+        "stop" : 1668815455374,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a31c4248d18dcf05",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:50:55.225Z",
+      "source" : "a31c4248d18dcf05.png",
+      "type" : "image/png",
+      "size" : 80554
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Deletar contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Deletar contato"
+  }, {
+    "name" : "story",
+    "value" : "Deletar um contato passando ID"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "78e9142dace06318",
+      "status" : "failed",
+      "statusDetails" : "expected 500 to equal 200",
+      "time" : {
+        "start" : 1668815014801,
+        "stop" : 1668815015132,
+        "duration" : 331
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6ec2a614dc80cc6b",
+        "status" : "failed",
+        "statusDetails" : "expected 500 to equal 200",
+        "time" : {
+          "start" : 1668815014801,
+          "stop" : 1668815015132,
+          "duration" : 331
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db49573757d17f06.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,103 @@
+{
+  "uid" : "69f87db20a45044b",
+  "name" : "PUT - Atualizar pessoa",
+  "fullName" : "PUT - Atualizar pessoa",
+  "historyId" : "708b4de7f2b57c8f9a46ce299914dd2f",
+  "time" : {
+    "start" : 1668815459449,
+    "stop" : 1668815459558,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "steps" : [ {
+      "name" : "PUT 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa/107",
+      "time" : {
+        "start" : 1668815459478,
+        "stop" : 1668815459556,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "suite",
+    "value" : "Atualizar pessoa"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "feature",
+    "value" : "Atualiza uma pessoa existente"
+  }, {
+    "name" : "story",
+    "value" : "Dados corretos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d878f85cdceb0a3a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668815019866,
+        "stop" : 1668815020004,
+        "duration" : 138
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a5e297996f91bd93",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668815019866,
+          "stop" : 1668815020004,
+          "duration" : 138
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "69f87db20a45044b.json",
+  "parameterValues" : [ ]
+}

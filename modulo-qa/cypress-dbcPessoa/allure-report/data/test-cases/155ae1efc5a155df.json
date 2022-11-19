@@ -1,0 +1,136 @@
+{
+  "uid" : "155ae1efc5a155df",
+  "name" : "DELETE - Tentar deletar contato com id inválido",
+  "fullName" : "DELETE - Tentar deletar contato com id inválido",
+  "historyId" : "aaef1425b24a9bae38d92663a8d858b6",
+  "time" : {
+    "start" : 1668815455383,
+    "stop" : 1668815455693,
+    "duration" : 310
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 500 to equal 404",
+  "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:290:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 500 to equal 404",
+    "statusTrace" : "AssertionError: expected 500 to equal 404\n    at Context.eval (http://localhost:55948/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\contato.spec.js:290:36)",
+    "steps" : [ {
+      "name" : "DELETE 500 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/01",
+      "time" : {
+        "start" : 1668815455412,
+        "stop" : 1668815455477,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **500** to equal **404**",
+      "time" : {
+        "start" : 1668815455692,
+        "stop" : 1668815455692,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "500"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f6cdc4e575db1dd7",
+      "name" : "test/aceitacao/contato.spec.js:2022-11-18T23:50:55.515Z",
+      "source" : "f6cdc4e575db1dd7.png",
+      "type" : "image/png",
+      "size" : 79681
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contato"
+  }, {
+    "name" : "suite",
+    "value" : "Deletar contato"
+  }, {
+    "name" : "epic",
+    "value" : "Contato"
+  }, {
+    "name" : "feature",
+    "value" : "Tenta deletar contato com ID inválido"
+  }, {
+    "name" : "story",
+    "value" : "ID inválido"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44b3473fdd006d3d",
+      "status" : "failed",
+      "statusDetails" : "expected 500 to equal 404",
+      "time" : {
+        "start" : 1668815015141,
+        "stop" : 1668815015528,
+        "duration" : 387
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d2300f9f6db8a54b",
+        "status" : "failed",
+        "statusDetails" : "expected 500 to equal 404",
+        "time" : {
+          "start" : 1668815015141,
+          "stop" : 1668815015528,
+          "duration" : 387
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "155ae1efc5a155df.json",
+  "parameterValues" : [ ]
+}

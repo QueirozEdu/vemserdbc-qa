@@ -1,0 +1,183 @@
+{
+  "uid" : "a3841d53029d8eb1",
+  "name" : "POST - Adicionar pessoa",
+  "fullName" : "POST - Adicionar pessoa",
+  "historyId" : "3a6aad7564b21ae174fb93fdbf11f1d6",
+  "time" : {
+    "start" : 1668815459652,
+    "stop" : 1668815459741,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa",
+      "time" : {
+        "start" : 1668815459662,
+        "stop" : 1668815459734,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **Igor Dinho** to equal **Igor Dinho**",
+      "time" : {
+        "start" : 1668815459740,
+        "stop" : 1668815459740,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Igor Dinho"
+      }, {
+        "name" : "expected",
+        "value" : "Igor Dinho"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **'741258'** to equal **'741258'**",
+      "time" : {
+        "start" : 1668815459741,
+        "stop" : 1668815459741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "741258"
+      }, {
+        "name" : "expected",
+        "value" : "741258"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **igor.dinho@dbccompany.com.br** to equal **igor.dinho@dbccompany.com.br**",
+      "time" : {
+        "start" : 1668815459741,
+        "stop" : 1668815459741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "igor.dinho@dbccompany.com.br"
+      }, {
+        "name" : "expected",
+        "value" : "igor.dinho@dbccompany.com.br"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1668815459741,
+        "stop" : 1668815459741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "suite",
+    "value" : "Adicionar pessoa"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "feature",
+    "value" : "Adiciona uma pessoa"
+  }, {
+    "name" : "story",
+    "value" : "Dados corretos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec2391f35a496d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668815020114,
+        "stop" : 1668815020211,
+        "duration" : 97
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e24c3ead45ed2203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668815020114,
+          "stop" : 1668815020211,
+          "duration" : 97
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3841d53029d8eb1.json",
+  "parameterValues" : [ ]
+}
